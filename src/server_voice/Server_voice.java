@@ -11,11 +11,11 @@ package server_voice;
  */
 public class Server_voice {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static boolean calling = false;
     public static void main(String[] args) {
-        // TODO code application logic here
+        server_fr fr = new server_fr();
+        fr.setVisible(true);
+        
     }
     
 }
